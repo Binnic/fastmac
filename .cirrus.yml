@@ -5,7 +5,7 @@ compute_engine_instance:
   architecture: arm64 # optional. By default, amd64 is assumed.
   cpu: 8 # optional. Defaults to 2 CPUs.
   memory: 20G # optional. Defaults to 4G.
-  disk: 300 # optional. By default, uses the smallest disk size required by the image.
+  disk: 256 # optional. By default, uses the smallest disk size required by the image.
   nested_virtualization: false # optional. Whether to enable Intel VT-x. Defaults to false.
 
 task:
