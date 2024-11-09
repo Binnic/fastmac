@@ -1,12 +1,7 @@
-compute_engine_instance:
-  image_project: rocky-linux-cloud # GCP project.
-  image_family: rocky-linux-9-optimized-gcp # family or a full image name.
-  platform: linux
-  architecture: amd64 # optional. By default, amd64 is assumed.
-  cpu: 8 # optional. Defaults to 2 CPUs.
-  memory: 20G # optional. Defaults to 4G.
-  disk: 256 # optional. By default, uses the smallest disk size required by the image.
-  nested_virtualization: false # optional. Whether to enable Intel VT-x. Defaults to false.
+container:
+  image: fedora:latest
+  cpu: 8
+  memory: 12G
 
 task:
   script:
