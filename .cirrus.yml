@@ -1,6 +1,6 @@
 compute_engine_instance:
   image_project: rocky-linux-cloud # GCP project.
-  image: rocky-linux-9-optimized-gcp # family or a full image name.
+  image_family: rocky-linux-9-optimized-gcp # family or a full image name.
   platform: linux
   architecture: amd64 # optional. By default, amd64 is assumed.
   cpu: 8 # optional. Defaults to 2 CPUs.
